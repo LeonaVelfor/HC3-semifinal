@@ -1,6 +1,6 @@
 # Loja da Maria
 
-Um parágrafo da descrição do projeto vai aqui
+Projeto construído em VTEX.IO e AWS para a semifinal do Hiring Coders #3. O desafio proposto era criar um front-end funcional, responsivo e com boa UI, de um E-commerce que estivesse com o processo de compras funcional e que possuisse uma API, hospedada em AWS, que armazenasse transformava as compras faturadas em pontos a serem exibidos no front para o usuário.
 
 ## 🚀 Começando
 
@@ -19,7 +19,7 @@ Um parágrafo da descrição do projeto vai aqui
 ### Frontend
 
 * Notion: [Acesse Aqui](https://nonstop-iguanadon-22e.notion.site/Ideias-para-o-Front-End-54ec6c6bc8e44462835b2df6817df0f0)
-* Benchmark: [Frontend(https://nonstop-iguanadon-22e.notion.site/Benchmark-Front-0d343129b7bb4d1d97a099e4fe0636bb)
+* Benchmark: [Frontend](https://nonstop-iguanadon-22e.notion.site/Benchmark-Front-0d343129b7bb4d1d97a099e4fe0636bb)
 * Benchmark [Sistema de Pontos](https://nonstop-iguanadon-22e.notion.site/Benchmark-Sistemas-de-Pontos-d5f68f137b764b71b75bbaa0292c33ad)
 * Figma: [Acesse Aqui](https://www.figma.com/file/6aahFva4lbFnXsdmOMlzQE/Projeto-hiring-coders)
 
@@ -60,9 +60,10 @@ GET: https://gs9vut5z2m.execute-api.sa-east-1.amazonaws.com/points/:{id} // busc
 * **Walter Souza** - *Prototipação e Backend* - [Walter](https://www.linkedin.com/in/waltersasouza/)
 
 
-## 📄 Licença
+## Preview
+* [prev1](https://ibb.co/9VZxn6B)
+* [prev2](https://ibb.co/TmgGttD)
 
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
 
 
 
