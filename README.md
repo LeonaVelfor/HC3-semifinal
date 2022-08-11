@@ -61,10 +61,10 @@ GET: https://gs9vut5z2m.execute-api.sa-east-1.amazonaws.com/points/:{id} // busc
 
 
 ## Preview 1
-- <img alt="Preview1" title="#Preview1" src="https://i.ibb.co/Hxhc76R/lojamaria.gif" />
+<img src="https://i.ibb.co/Hxhc76R/lojamaria.gif"/>
 
 ## Preview 2
-- <img alt="Preview2" title="#Preview2" src="https://i.ibb.co/BqCJBBH/lojamariadesktop.gif" />
+<img src="https://i.ibb.co/BqCJBBH/lojamariadesktop.gif"/>
 
 
 
