@@ -62,7 +62,11 @@ GET: https://gs9vut5z2m.execute-api.sa-east-1.amazonaws.com/points/:{id} // busc
 
 ## Preview 1
 
-<img alt="um" src="https://i.ibb.co/Hxhc76R/lojamaria.gif" />
+[Clique aqui para ver o responsivo](https://i.ibb.co/Hxhc76R/lojamaria.gif)
+
+## Preview 2
+
+[Clique aqui para ver o desktop](https://i.ibb.co/BqCJBBH/lojamariadesktop.gif)
 
 
 
