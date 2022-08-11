@@ -1,0 +1,67 @@
+{
+  "image#dev1":{
+    "props": {
+      "blockClass": "img-dev-1",
+      "src": "assets/cristiane.png",
+      "link":{
+        "url": "https://www.linkedin.com/in/cristianedsc/",
+        "newTab": true
+      }
+    }
+  },
+
+  "image#dev2":{
+    "props": {
+      "blockClass": "img-dev-2",
+      "src": "assets/rodolfo.jpg",
+      "link":{
+        "url": "https://www.linkedin.com/in/rodolfo-silva-14573b117/",
+        "newTab": true
+      }
+    }
+  },
+
+  "image#dev3":{
+    "props": {
+      "blockClass": "img-dev-3",
+      "src": "assets/flavio.jpg",
+      "link":{
+        "url": "https://www.linkedin.com/in/fl%C3%A1vioviana113/",
+        "newTab": true
+        }
+    }
+  },
+
+  "image#dev4":{
+    "props": {
+      "blockClass": "img-dev-4",
+      "src": "assets/leona.jpg",
+      "link":{
+        "url": "https://www.linkedin.com/in/leona-evangelista/",
+        "newTab": true
+        }
+    }
+  },
+
+  "image#dev5":{
+    "props": {
+      "blockClass": "img-dev-5",
+      "src": "assets/victor.jpg",
+      "link":{
+        "url": "https://www.linkedin.com/in/victorhugommf/",
+        "newTab": true
+        }
+    }
+  },
+
+  "image#dev6":{
+    "props": {
+      "blockClass": "img-dev-7",
+      "src": "assets/walter.jpg",
+      "link":{
+        "url": "https://i.ibb.co/7kxBBT8/walter.jpg",
+        "newTab": true
+        }
+    }
+  }
+}

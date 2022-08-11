@@ -1,0 +1,98 @@
+{
+  "responsive-layout.desktop#desktop": {
+    "children": [
+      "list-context.image-list#home-desktop"
+    ]
+  },
+  "responsive-layout.tablet#tablet": {
+    "children": [
+      "list-context.image-list#home-tablet"
+    ]
+  },
+  "responsive-layout.phone#phone": {
+    "children": [
+      "list-context.image-list#home-phone"
+    ]
+  },
+  "list-context.image-list#home-desktop": {
+    "children": [
+      "slider-layout#home-images"
+    ],
+    "props": {
+      "height": 570,
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/banner-1-desktop.png"
+        },
+        {
+          "image": "assets/banner-2-desktop.jpg"
+        },
+        {
+          "image": "assets/banner-3-desktop.jpg"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#home-tablet": {
+    "children": [
+      "slider-layout#home-images"
+    ],
+    "props": {
+      "height": 760,
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/banner-1-mobile.jpg"
+        },
+        {
+          "image": "assets/banner-2-mobile.jpg"
+        },
+        {
+          "image": "assets/banner-3-mobile.png"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#home-phone": {
+    "children": [
+      "slider-layout#home-images"
+    ],
+    "props": {
+      "height": 570,
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/banner-1-mobile.jpg"
+        },
+        {
+          "image": "assets/banner-2-mobile.jpg"
+        },
+        {
+          "image": "assets/banner-3-mobile.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#home-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "slideTransition": {
+        "speed": 1500,
+        "delay": 0,
+        "timing": "ease-in"
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    }
+  }
+}

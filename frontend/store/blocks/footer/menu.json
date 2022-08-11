@@ -1,0 +1,330 @@
+{
+  "vtex.menu@2.x:menu#info": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#info",
+      "menu-item#about-us"
+    ]
+  },
+  "menu-item#info": {
+    "props": {
+      "id": "menu-item-info",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass": "menuItemHeaderFooter",
+      "itemProps": {
+        "text": "INSTITUCIONAL"
+      }
+    }
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "Quem Somos",
+        "text": "Quem Somos"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#account": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#account",
+      "menu-item#my-account",
+      "menu-item#my-orders"
+    ]
+  },
+  "menu-item#account": {
+    "props": {
+      "id": "menu-item-account",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menuItemHeaderFooter",
+      "itemProps": {
+        "text": "MINHA CONTA"
+      }
+    }
+  },
+  "menu-item#my-account": {
+    "props": {
+      "id": "menu-item-my-account",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": false,
+        "tagTitle": "Meu cadastro",
+        "text": "Meu cadastro"
+      }
+    }
+  },
+  "menu-item#my-orders": {
+    "props": {
+      "id": "menu-item-my-orders",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account#/orders",
+        "noFollow": false,
+        "tagTitle": "Meus pedidos",
+        "text": "Meus pedidos"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#footer-help": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#help",
+      "menu-item#customer-service"
+    ]
+  },
+  "menu-item#help": {
+    "props": {
+      "id": "menu-item-help",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menuItemHeaderFooter",
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "AJUDA",
+        "text": "AJUDA"
+      }
+    }
+  },
+  "menu-item#customer-service": {
+    "props": {
+      "id": "menu-item-customer-service",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Fale conosco",
+        "text": "Fale conosco"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#socialnetwork": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#network",
+      "menu-item#facebook",
+      "menu-item#instagram",
+      "menu-item#twitter",
+      "menu-item#youtube"
+    ]
+  },
+  "menu-item#network": {
+    "props": {
+      "id": "menu-network",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menuItemHeaderFooter",
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "REDES SOCIAIS",
+        "text": "REDES SOCIAIS"
+      }
+    }
+  },
+  "menu-item#facebook": {
+    "props": {
+      "id": "menu-facebook",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Facebook",
+        "text": "Facebook"
+      }
+    }
+  },
+  "menu-item#instagram": {
+    "props": {
+      "id": "menu-instagram",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://instagram.com/loja.da.maria.ofc",
+        "noFollow": true,
+        "tagTitle": "Instagram",
+        "text": "Instagram"
+      }
+    }
+  },
+  "menu-item#twitter": {
+    "props": {
+      "id": "menu-twitter",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://twitter.com/LojaDaMariaOfc",
+        "noFollow": true,
+        "tagTitle": "Twitter",
+        "text": "Twitter"
+      }
+    }
+  },
+  "menu-item#youtube": {
+    "props": {
+      "id": "menu-youtube",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://youtube.com/channel/UCdii0BjUBS6RMR9mkjRBhvA",
+        "noFollow": true,
+        "tagTitle": "YouTube",
+        "text": "YouTube"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#info-mobile",
+      "menu-item#account-mobile",
+      "menu-item#help-mobile",
+      "menu-item#network-mobile"
+    ]
+  },
+  "menu-item#info-mobile": {
+    "props": {
+      "id": "menu-item-category-info",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "INSTITUCIONAL",
+        "text": "INSTITUCIONAL"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#info"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#info": {
+    "children": [
+      "vtex.menu@2.x:menu#info-accordion"
+    ]
+  },
+  "vtex.menu@2.x:menu#info-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us"
+    ]
+  },
+  "menu-item#help-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "AJUDA",
+        "text": "AJUDA"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#help"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#help": {
+    "children": [
+      "vtex.menu@2.x:menu#help-accordion"
+    ]
+  },
+  "vtex.menu@2.x:menu#help-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#customer-service"
+    ]
+  },
+  "menu-item#account-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "MINHA CONTA",
+        "text": "MINHA CONTA"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#account"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#account": {
+    "children": [
+      "vtex.menu@2.x:menu#account-accordion"
+    ]
+  },
+  "vtex.menu@2.x:menu#account-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#my-account",
+      "menu-item#my-orders"
+    ]
+  },
+  "menu-item#network-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "REDES SOCIAIS",
+        "text": "REDES SOCIAIS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#network"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#network": {
+    "children": [
+      "vtex.menu@2.x:menu#network-accordion"
+    ]
+  },
+  "vtex.menu@2.x:menu#network-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#facebook",
+      "menu-item#instagram",
+      "menu-item#twitter",
+      "menu-item#youtube"
+    ]
+  }
+}

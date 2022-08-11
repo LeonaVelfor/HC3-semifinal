@@ -1,0 +1,72 @@
+{
+  "slider-layout#brands": {
+    "children": [
+      "image#brand1",
+      "image#brand2",
+      "image#brand3",
+      "image#brand4",
+      "image#brand5",
+      "image#brand6"
+    ],
+    "props": {
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "desktopOnly",
+      "slideTransition": {
+        "speed": 1500,
+        "delay": 0,
+        "timing": "ease-in"
+      },
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "autoplay": {
+        "timeout": 5000
+      }
+    }
+  },
+  "image#brand1": {
+    "props": {
+      "maxHeight": 150,
+      "src": "assets/atmosphere.png",
+      "alt": "logotipo marca Atmosphere"
+    }
+  },
+  "image#brand2": {
+    "props": {
+      "maxHeight": 150,
+      "src": "assets/bitsized.png",
+      "alt": "logotipo marca Bitsized"
+    }
+  },
+  "image#brand3": {
+    "props": {
+      "maxHeight": 150,
+      "src": "assets/controll.png",
+      "alt": "logotipo marca Controll"
+    }
+  },
+  "image#brand4": {
+    "props": {
+      "maxHeight": 150,
+      "src": "assets/speedware.png",
+      "alt": "Logotipo marca Speedware"
+    }
+  },
+  "image#brand5": {
+    "props": {
+      "maxHeight": 150,
+      "src": "assets/dreamscape.png",
+      "alt": "logotipo marca Dreamscape"
+    }
+  },
+  "image#brand6": {
+    "props": {
+      "maxHeight": 150,
+      "src": "assets/travellog.png",
+      "alt": "logotipo marca Dreamscape"
+    }
+  }
+}

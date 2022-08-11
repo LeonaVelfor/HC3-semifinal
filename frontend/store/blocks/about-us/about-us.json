@@ -1,0 +1,111 @@
+{
+  "store.custom#about-us": {
+    "blocks": [
+      "responsive-layout.desktop#desktop1",
+      "responsive-layout.mobile#mobile1",
+      "__fold__",
+      "flex-layout.row#squad-1",
+      "flex-layout.row#squad-2",
+      "flex-layout.row#squad-3"
+    ]
+  },
+  "responsive-layout.desktop#desktop1": {
+    "children": [
+      "info-card#about-us-1-desktop"
+    ]
+  },
+  "responsive-layout.mobile#mobile1": {
+    "children": [
+      "info-card#about-us-1-mobile"
+    ]
+  },
+  "info-card#about-us-1-desktop": {
+    "props": {
+      "blockClass": "info-card-about-us-1-desktop",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "textAlignment": "center",
+      "textMode": "rich-text",
+      "imageUrl": "assets/mulher-quem-somos.jpg",
+      "headline": " ## Bem-vindo à Loja da Maria",
+      "subhead": "Você está na **Loja da Maria**, o melhor lugar para encontrar **produtos diversos** e com **qualidade inigualável**.\n\nVocê sabia que nós trabalhamos apenas com os fornecedores mais confiáveis do mercado? Isso significa que todos os produtos que você encontrar no nosso site certamente serão da mais alta qualidade.\n\nQuer saber quem faz parte da nossa família? **Vá em frente!**",
+      "callToActionMode": "none"
+    }
+  },
+  "flex-layout.row#squad-1": {
+    "children": ["flex-layout.col#our-squad"],
+    "props": {
+      "blockClass": "container-squad1-ric-text",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "horizontalAlign": "center",
+      "fullWidth": true,
+      "marginBottom": 8,
+      "marginTop": 6
+    }
+  },
+  "flex-layout.col#our-squad": {
+    "children": ["rich-text#squad"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "rich-text#squad": {
+    "props": {
+      "blockClass": "our-squad",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Nosso Time",
+      "font": "t-heading-1"
+    }
+  },
+  "info-card#about-us-1-mobile": {
+    "props": {
+      "blockClass": "info-card-about-us-1-mobile",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "textAlignment": "center",
+      "textMode": "rich-text",
+      "imageUrl": "assets/mulher-quem-somos-mobile.jpg",
+      "headline": " ### Bem-vindo à Loja da Maria!",
+      "subhead": "Você está na **Loja da Maria**, o melhor lugar para encontrar **produtos diversos** e com **qualidade inigualável**.\n\nVocê sabia que nós trabalhamos apenas com os fornecedores mais confiáveis do mercado? Isso significa que todos os produtos que você encontrar no nosso site certamente serão da mais alta qualidade.\n\nQuer saber quem faz parte da nossa família? **Vá em frente!**",
+      "callToActionMode": "none"
+    }
+  },
+  "flex-layout.row#squad-2": {
+    "children": [
+      "flex-layout.col#squad-1",
+      "flex-layout.col#squad-2",
+      "flex-layout.col#squad-3"
+    ],
+    "props": {
+      "blockClass": "container-squad1",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "top",
+      "fullWidth": true,
+      "marginBottom": 6,
+      "colJustify": "between",
+      "colGap": 9
+    }
+  },
+  "flex-layout.row#squad-3": {
+    "children": [
+      "flex-layout.col#squad-4",
+      "flex-layout.col#squad-5",
+      "flex-layout.col#squad-6"
+    ],
+    "props": {
+      "blockClass": "container-squad2",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "horizontalAlign": "center",
+      "fullWidth": true,
+      "marginBottom": 6,
+      "colJustify": "between",
+      "colGap": 9
+    }
+  }
+}

@@ -1,0 +1,144 @@
+//Voltando ao estado inicial => ec17ca6
+{
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#rowSectionSlider",
+      "__fold__",
+      "flex-layout.row#rowMain"
+    ]
+  },
+  //Iniciando a implementação do Slider Responsivo
+  "flex-layout.row#rowSectionSlider": {
+    "children": [
+      "flex-layout.col#colSectionSlider"
+    ],
+    "props": {
+      "fullWidth": false,
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#colSectionSlider": {
+    "children": [
+      "responsive-layout.desktop#desktop",
+      "responsive-layout.tablet#tablet",
+      "responsive-layout.phone#phone"
+    ],
+    "props": {
+      "marginRight": 5,
+      "marginLeft": 5,
+      "blockClass": "colSectionSlider"
+    }
+  },
+  //Fim do slider responsivo
+  //Depois do slider, vamos inserir a rowMain e a columnMain para controlar melhor as margens laterais
+  "flex-layout.row#rowMain": {
+    "children": [
+      "flex-layout.col#colMain"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "fullWidth": false
+    }
+  },
+  "flex-layout.col#colMain": {
+    "children": [
+      "rich-text#shelf-title",
+      "flex-layout.row#sectionShelf",
+      "info-card#home",
+      "info-card#rewards",
+      "rich-text#brands",
+      "flex-layout.row#brands"
+    ],
+    "props": {
+      "width": "90%"
+    }
+  },
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "### **CONFIRA NOSSAS OFERTAS**",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#sectionShelf": {
+    "children": [
+      "flex-layout.col#columnShelf"
+    ],
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#columnShelf": {
+    "children": [
+      "list-context.product-list#listShelf"
+    ],
+    "props": {}
+  },
+  "list-context.product-list#listShelf": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/caneca-de-cafe.jpg",
+      "headline": "Canecas em Promoção",
+      "subhead": "Com a caneca certa o cafezinho fica até mais gostoso!",
+      "callToActionText": "CONFIRA",
+      "callToActionUrl": "/canecas",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#rewards": {
+    "props": {
+      "id": "info-card-rewards",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/ilustracao-mulher-compras-online-moedas.webp",
+      "textMode": "rich-text",
+      "headline": "## Programa de Recompensas",
+      "subhead": "🪙 Cada R$1 em compras vale 1 ponto.\n🪙 Acumule pontos e troque por produtos da loja.\n🪙 Simples assim!",
+      "callToActionText": "CADASTRE-SE PARA PARTICIPAR",
+      "callToActionUrl": "/login",
+      "blockClass": "info-card-rewards",
+      "textAlignment": "center"
+    }
+  },
+  "rich-text#brands": {
+    "props": {
+      "text": "#### **MARCAS**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#brands": {
+    "children": [
+      "slider-layout#brands"
+    ],
+    "props": {
+      "marginBottom": 9
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "headerMenu"
+    },
+    "children": [
+      "menu-item#home",
+      "menu-item#category-rewards",
+      "menu-item#category-shirts",
+      "menu-item#category-bags",
+      "menu-item#category-cups",
+      "menu-item#category-mugs"
+    ]
+  },
+  "menu-item#home": {
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Home",
+        "text": "Home"
+      }
+    }
+  },
+  "menu-item#category-rewards": {
+    "props": {
+      "id": "menu-item-category-rewards",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass": "headerMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Programa de Recompensas",
+        "text": "Programa de Recompensas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-rewards"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-rewards": {
+    "props": {
+      "blockClass": "rewardSubmenu"
+    },
+    "children": [
+      "flex-layout.row#rowMenuRewards"
+    ]
+  },
+  "flex-layout.row#rowMenuRewards": {
+    "children": [
+      "info-card#rewards"
+    ]
+  },
+  "menu-item#category-shirts": {
+    "props": {
+      "id": "menu-item-category-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/camisetas/",
+        "noFollow": false,
+        "tagTitle": "Camisetas",
+        "text": "Camisetas"
+      }
+    }
+  },
+  "menu-item#login": {
+    "props": {
+      "id": "menu-item-login",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/login",
+        "noFollow": false,
+        "tagTitle": "Entre ou Cadastre-se",
+        "text": "Entre ou Cadastre-se"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-shirts"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-shirts": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-shirts"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-shirts": {
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category-bags": {
+    "props": {
+      "id": "menu-item-category-bags",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Mochilas/",
+        "noFollow": false,
+        "tagTitle": "Mochilas",
+        "text": "Mochilas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-bags"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-bags": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-bags"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-bags": {
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category-mugs": {
+    "props": {
+      "id": "menu-item-category-mugs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/canecas/",
+        "noFollow": false,
+        "tagTitle": "Canecas",
+        "text": "Canecas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-mugs"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-mugs": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-mugs"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-mugs": {
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category-cups": {
+    "props": {
+      "id": "menu-item-category-cups",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/copos/",
+        "noFollow": false,
+        "tagTitle": "Copos",
+        "text": "Copos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-cups"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-cups": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-cups"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-cups": {
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

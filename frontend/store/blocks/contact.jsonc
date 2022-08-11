@@ -1,0 +1,19 @@
+{
+  "store.custom#contact-us": {
+    "blocks": ["info-card#contact-us"]
+  },
+  "info-card#contact-us": {
+    "props": {
+      "id": "info-card-contact-us",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/atendentes-call-center.jpg",
+      "textMode": "rich-text",
+      "headline": "## Fale conosco",
+      "subhead": "Tem alguma dúvida ou sugestão? Você pode entrar em contato com nossa **Central de Atendimento** por telefone ou e-mail.\n\nNosso horário de atendimento é das 8:00h às 20:00h de segunda a sábado.\n\n**Telefone:** (00) 1234-4321\n**E-mail:** sac@lojadamaria.com.br",
+      "callToActionMode": "none",
+      "blockClass": "info-card-contact",
+      "textAlignment": "center"
+    }
+  }
+}
